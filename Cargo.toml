@@ -1,0 +1,15 @@
+[package]
+name = "zmq-client"
+version = "0.1.0"
+authors = ["addy"]
+edition = "2018"
+
+[dependencies]
+zmq = "0.9"
+rust_sodium = "0.10.2"
+ws = "0.9.1"
+base64 = "0.11.0"
+serde = "1.0.9"
+serde_json = "1.0"
+serde_derive = "1.0.9"
+lazy_static = "~1.2.0"
